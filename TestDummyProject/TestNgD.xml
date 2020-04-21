@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Desktop" data-provider-thread-count="1">
+  <test thread-count="1" name="Browser">
+    <classes>
+      <class name="TestPackage2.NewTest">
+        <methods>
+          <include name="testmethod"/>
+        </methods>
+      </class> <!-- e2e.tests.BddTests -->
+    </classes>
+  </test> <!-- Browser -->
+</suite> <!-- Desktop -->
